@@ -168,7 +168,7 @@ function App() {
 
     try {
       const response = await fetch(
-        'http://127.0.0.1:8000/ask',
+        'https://bhashatutor-ai-1.onrender.com/ask',
         {
           method: 'POST',
           headers: {
@@ -229,7 +229,7 @@ function App() {
 
     try {
       const response = await fetch(
-        'http://127.0.0.1:8000/upload-pdf',
+        'https://bhashatutor-ai-1.onrender.com/upload-pdf',
         {
           method: 'POST',
           body: formData,
@@ -264,7 +264,7 @@ function App() {
 
     try {
       const response = await fetch(
-        'http://127.0.0.1:8000/generate-notes',
+        'https://bhashatutor-ai-1.onrender.com/generate-notes',
         { method: 'POST' }
       )
       const data = await response.json()
@@ -297,7 +297,7 @@ function App() {
 
     try {
       const response = await fetch(
-        'http://127.0.0.1:8000/generate-quiz',
+        'https://bhashatutor-ai-1.onrender.com/generate-quiz',
         { method: 'POST' }
       )
 
